@@ -1,0 +1,469 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+    .text_img {
+        margin-right: 0px;
+    }
+    .ideas::before {
+        right: 5px;
+    }
+    .map {
+        padding-right: 74px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text_img {
+        margin-right: 0px;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .ideas::before {
+        right: 5px;
+    }
+    .bottom_form h3 {
+        margin-right: 42px;
+    }
+    .about_us li {
+        font-size: 16px;
+    }
+    .map {
+        padding-right: 90px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0px 18px;
+    }
+    .text-bg h1 {
+        font-size: 43px;
+        line-height: 53px;
+        padding-bottom: 10px;
+    }
+    .text_img {
+        margin-right: 0px;
+    }
+    .titlepage h2 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    .team .titlepage h3 {
+        font-size: 20px;
+    }
+    .team .titlepage strong {
+        font-size: 34px;
+        padding-left: 12px;
+    }
+    .services .services_box h3 {
+        font-size: 20px;
+    }
+    .ideas::before {
+        right: 5px;
+    }
+    .ideas_box p {
+        font-size: 16px;
+    }
+    ul.social_icon {
+        margin-bottom: 25px;
+    }
+    .d_none {
+        display: none;
+    }
+    .about_us li {
+        float: left;
+    }
+    .map {
+        padding-right: 74px;
+    }
+    .bottom_form h3 {
+        margin-right: 19px;
+    }
+    .bottom_form .enter {
+        width: 39%;
+    }
+    .sub_btn {
+        max-width: 125px;
+    }
+    .blog .blog_box figure img {
+    height: 192px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner_main {
+        min-height: 1065px;
+    }
+    .text_img {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .text_img figure h3 {
+        top: 19px;
+        left: -3px;
+    }
+    .text-bg p {
+        padding-bottom: 30px;
+    }
+    .ideas_box p {
+        margin-bottom: 30px;
+    }
+    .margin_bottom {
+        margin-bottom: 30px;
+    }
+    .map {
+        background: #02246a;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .ideas::before {
+        right: 4px;
+    }
+    .contact::before {
+        background: inherit;
+    }
+    .sub_btn {
+        max-width: 140px;
+    }
+    .bottom_form h3 {
+        margin-right: 11px;
+        margin-top: 0 !important;
+    }
+    .main_form {
+        margin: 0;
+    }
+    .footer h3 {
+        margin-top: 30px;
+    }
+    ul.location_icon li {
+        font-size: 17px;
+        padding-left: 13px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        padding-top: 5px !important;
+    }
+    .navigation .navbar-collapse {
+        background: #07183b;
+        padding: 20px;
+        margin-top: 64px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+    .about_page .team_img {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        float: left;
+    }
+    .text_img {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .text-bg {
+        padding-right: 0;
+    }
+    .text_img figure h3 {
+        top: 19px;
+        left: 5px;
+    }
+    .text-bg p {
+        padding-bottom: 30px;
+    }
+    .ideas_box p {
+        margin-bottom: 30px;
+    }
+    .text-bg h1 {
+        font-size: 47px;
+        line-height: 60px;
+        padding-bottom: 10px;
+    }
+    .carousel-inner {
+        margin-right: 0;
+    }
+    .titlepage h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .team .titlepage h3 {
+        font-size: 18px;
+    }
+    .team .titlepage strong {
+        font-size: 28px;
+        padding-left: 10px;
+    }
+    .map {
+        background: #02246a;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    .ideas::before {
+        right: 4px;
+    }
+    .contact::before {
+        background: inherit;
+    }
+    .main_form {
+        margin: 0px;
+    }
+    .footer h3 {
+        margin-top: 10px;
+    }
+    .about_us li {
+        float: left;
+    }
+    ul.social_icon {
+        margin-bottom: 10px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -59px;
+    }
+    .navigation .navbar-collapse {
+        background: #0eb582;
+        padding: 20px;
+        margin-top: 67px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .d_none {
+        display: none;
+    }
+
+    .about_page .team_img {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 1120px) {
+    .footer_bg {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .custom_nav-container .nav_search-btn {
+      background-position: center;
+    }
+  
+    .hero_area::before {
+      display: none;
+    }
+  
+  
+    .service_section {
+      background-size: cover;
+    }
+  
+    .slider_section ol.carousel-indicators {
+      display: none;
+  
+    }
+  
+    .slider_img-box img {
+      z-index: 1;
+      position: relative;
+    }
+  
+    .slider_img-box {
+      position: relative;
+    }
+  
+    .slider_img-box::before {
+      background-image: url(../images/hero-bg-mobile.png);
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      z-index: 0;
+      left: 0;
+      top: 0;
+      transform: scale(1.7);
+    }
+  
+  
+    .hero_area {
+      height: auto;
+    }
+  
+    .slider_detail-box {
+      margin-top: 35px;
+      margin-bottom: 45px;
+    }
+  
+    .slider_img-box {
+      margin-bottom: 75px;
+    }
+  
+    .slider_section .carousel_btn-container {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  
+  
+  
+  
+    .slider_section .carousel_btn-container {
+      display: none;
+    }
+  
+  
+  
+    .slider_section ol.carousel-indicators {
+      margin: 0;
+      width: 75px;
+      bottom: initial;
+      left: initial;
+      top: 37%;
+      right: 6%;
+    }
+  
+    .slider_detail-box {
+      text-align: center;
+    }
+  
+    .info_section .form_container input {
+      width: 100%;
+      margin: 20px 0;
+    }
+  
+    .form_container form {
+      flex-direction: column;
+    }
+  
+    .slider_img-box img {
+      z-index: 1;
+      position: relative;
+    }
+  
+    .slider_img-box {
+      position: relative;
+    }
+  
+    .slider_img-box::before {
+      background-image: url(../images/hero-bg-mobile.png);
+      width: 100%;
+      height: 100%;
+      content: "";
+      position: absolute;
+      background-size: cover;
+      z-index: 0;
+      left: 0;
+      top: 0;
+      transform: scale(1.5);
+    }
+  
+    .slider_section ol.carousel-indicators {
+      display: none;
+    }
+  
+    .service_section {
+      padding-top: 375px;
+      background-position: bottom;
+      margin-top: -325px;
+    }
+  
+    .client_container {
+      width: 95%;
+    }
+  
+    .client_section .carousel-control-prev,
+    .client_section .carousel-control-next {
+      display: none;
+    }
+  
+    .why_section .row .col-md-3 {
+      margin: 15px auto;
+      justify-content: flex-start;
+      width: min-content;
+    }
+  
+    .footer_bg {
+      padding-top: 300px;
+    }
+  
+    .info_section .row>div {
+      margin-bottom: 35px;
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+  
+  
+    .slider_section ol.carousel-indicators {
+      right: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {}
+  
+  @media (max-width: 420px) {}
+  
+  @media (max-width: 360px) {}
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px;
+    }
+  }
